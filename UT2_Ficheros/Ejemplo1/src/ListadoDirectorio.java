@@ -3,7 +3,7 @@ import java.io.File;
 import java.io.IOException;
 public class ListadoDirectorio {
     public static void main(String[] args) {
-        String ruta = ".";
+        String ruta = "./src";
       /*  if (args.length >= 1) {
             ruta = args;
         } */
