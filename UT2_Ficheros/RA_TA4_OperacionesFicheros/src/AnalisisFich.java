@@ -3,7 +3,9 @@ import java.io.*;
 public class AnalisisFich {
     public static void main(String[] args) {
 
-        //Gilberto Gil Gandia//
+        //Gilberto Gil Gandia// Operaciones comunes con ficheros
+
+
 
         //Creamos dos variables estaticas que iremos usando a lo largo del codigo
         final String archivoOriginal = "seguridad.txt";

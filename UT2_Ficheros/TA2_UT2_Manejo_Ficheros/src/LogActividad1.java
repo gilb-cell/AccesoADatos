@@ -7,7 +7,7 @@ import java.util.Date;
 public class LogActividad1 {
 
     //GILBERTO//
-
+//Creacion, renombrar y eliminar ficheros
 
     public static void main(String[] args) {
 

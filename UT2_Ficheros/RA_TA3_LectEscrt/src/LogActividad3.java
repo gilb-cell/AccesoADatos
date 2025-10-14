@@ -6,6 +6,8 @@ public class LogActividad3 {
     public static void main(String[] args) {
 
         //*****Gilberto Gil Gandia*****//
+        //Gestion Basica de flujos de datos
+
 
         //1ºNombre del fichero de log que voy a crear
         //final xq no quiero q se modifique
@@ -40,7 +42,8 @@ public class LogActividad3 {
             }
 
         }catch(Exception e){
-            System.out.println("Error: No se pudo leer el fichero: " + e.getMessage());
+            //Las excepciones mejor manejarlas con err y no con out
+            System.err.println("Error: No se pudo leer el fichero: " + e.getMessage());
         }
     }
 }
