@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class LogActividad1 {
 
-    //GILBERTO//
+    //GILBERTO// Tarea 2
 //Creacion, renombrar y eliminar ficheros
 
     public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class LogActividad1 {
         // 1. Crear directorio logs/seguridad
                 File dir = new File("logs/seguridad");
                 if (!dir.exists()) {
-                    if (dir.mkdirs()) {
+                    if (dir.mkdirs()) {  //mkdir crea un directorio
                         System.out.println("Directorio creado: " + dir.getAbsolutePath());
                     } else {
                         System.out.println("No se pudo crear el directorio.");

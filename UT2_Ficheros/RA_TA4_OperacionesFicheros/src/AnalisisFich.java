@@ -3,7 +3,7 @@ import java.io.*;
 public class AnalisisFich {
     public static void main(String[] args) {
 
-        //Gilberto Gil Gandia// Operaciones comunes con ficheros
+        //Gilberto Gil Gandia// Tarea 4:  Operaciones comunes con ficheros
 
 
 
@@ -12,7 +12,7 @@ public class AnalisisFich {
         final String archivoCopia = "seguridadCopia.txt";
     //Abrimos fichero seguridad.txt y mostramos el contenido
 
-       try (FileReader leemos = new FileReader("seguridad.txt")){
+       try (FileReader leemos = new FileReader("seguridad.txt")){ //delante del try se pone porque asi lo abre y lo cierra
            BufferedReader br = new BufferedReader(leemos);
 
            System.out.println("Leyendo contenido de: " + "seguridad.txt");

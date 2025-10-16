@@ -5,7 +5,7 @@ import java.io.FileWriter;
 public class LogActividad3 {
     public static void main(String[] args) {
 
-        //*****Gilberto Gil Gandia*****//
+        //*****Gilberto Gil Gandia*****// Tarea 3 Leer y escribir fichero
         //Gestion Basica de flujos de datos
 
 

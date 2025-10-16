@@ -3,11 +3,18 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+/**
+ * @author Gilberto
+ * @since 16/10/2025
+ * @dato TA1 UT3
+ */
+
 public class Conector{
     // Datos de conexión
     private static final String URL = "jdbc:mysql://localhost:3306/ut3";
     private static final String USER = "root";
     private static final String PASSWORD = "123456";
+
     public static void main(String[] args) {
         Connection connection = null;
         try {
