@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Conector_CreacionTabla/Conector_CreacionTabla.iml" filepath="$PROJECT_DIR$/Conector_CreacionTabla/Conector_CreacionTabla.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Conector_JDBC/Conector_JDBC.iml" filepath="$PROJECT_DIR$/Conector_JDBC/Conector_JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImportacionyConsultas_Con_Procedimientos_Almacenados/ImportacionyConsultas_Con_Procedimientos_Almacenados.iml" filepath="$PROJECT_DIR$/ImportacionyConsultas_Con_Procedimientos_Almacenados/ImportacionyConsultas_Con_Procedimientos_Almacenados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModificarTabla_Tarea6/ModificarTabla_Tarea6.iml" filepath="$PROJECT_DIR$/ModificarTabla_Tarea6/ModificarTabla_Tarea6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarea5_InsertarDatos_DML/Tarea5_InsertarDatos_DML.iml" filepath="$PROJECT_DIR$/Tarea5_InsertarDatos_DML/Tarea5_InsertarDatos_DML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/UT3_Intellij.iml" filepath="$PROJECT_DIR$/.idea/UT3_Intellij.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consultaPrepared/consultaPrepared.iml" filepath="$PROJECT_DIR$/consultaPrepared/consultaPrepared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consultaSelect/consultaSelect.iml" filepath="$PROJECT_DIR$/consultaSelect/consultaSelect.iml" />
+    </modules>
+  </component>
+</project>
