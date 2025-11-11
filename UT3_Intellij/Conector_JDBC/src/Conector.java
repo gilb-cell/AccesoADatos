@@ -9,6 +9,7 @@ import java.sql.SQLException;
  * @dato TA1 UT3
  */
 
+
 public class Conector{
     // Datos de conexión
     private static final String URL = "jdbc:mysql://localhost:3306/ut3";
