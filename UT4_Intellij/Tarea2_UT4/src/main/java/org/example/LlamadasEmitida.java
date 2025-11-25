@@ -1,19 +1,32 @@
 package org.example;
 
-public class LlamadasEmitidas implements java.io.Serializable {
+
+/**
+ * GILBERTO
+ */
+
+
+
+public class LlamadasEmitida implements java.io.Serializable {
+
+
+    // ESTA CLASE ES EL POJO
 
     private int codigoLlamada;
     private int numeroLlamado;
     private int duracionLlamada;
     private float importeLlamada;
+    private int simLlamante;
 
+    public LlamadasEmitida() {}
 
-    public LlamadasEmitidas(int codigoLlamada, int numeroLlamado,
-                           int duracionLlamada, float importeLlamada) {
+    public LlamadasEmitida(int codigoLlamada, int numeroLlamado,
+                           int duracionLlamada, float importeLlamada,  int simLlamante) {
         this.codigoLlamada = codigoLlamada;
         this.numeroLlamado = numeroLlamado;
         this.duracionLlamada = duracionLlamada;
         this.importeLlamada = importeLlamada;
+        this.simLlamante = simLlamante;
     }
     public int getCodigoLlamada() {
         return this.codigoLlamada;
@@ -38,6 +51,14 @@ public class LlamadasEmitidas implements java.io.Serializable {
     }
     public void setImporteLlamada(float importeLlamada) {
         this.importeLlamada = importeLlamada;
+    }
+
+    public int getsimLlamante() {
+
+        return this.simLlamante;
+    }
+    public void setSimLlamante(int simLlamante) {
+        this.simLlamante = simLlamante;
     }
 
 }
