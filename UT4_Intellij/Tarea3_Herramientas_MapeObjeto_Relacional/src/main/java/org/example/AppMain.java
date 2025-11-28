@@ -19,13 +19,13 @@ public class AppMain {
 
     public static void main(String[] args) {
 
-      //  crearNuevaLlamada();
+      //  crearNuevaLlamada(); Create
 
-       // consultarRegistroExistente();
+       // consultarRegistroExistente(); READ
 
-      //  modificarRegistroExistente();
+      //  modificarRegistroExistente(); Update
 
-      //  eliminarRegistro(1000072);
+      //  eliminarRegistro(1000072); Delete
 
      //  gestionEstados();
 
@@ -50,7 +50,8 @@ public class AppMain {
             //dentro de try:
         try{
            //1 iniciamos transsacion
-            em.getTransaction().begin();
+            tx = em.getTransaction();
+            tx.begin();
             System.out.println("Transsacion iniciada");
 
             //2 creamos el objeto en estado transitorio (es posible)
