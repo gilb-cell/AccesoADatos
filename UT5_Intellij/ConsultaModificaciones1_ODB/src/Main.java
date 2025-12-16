@@ -1,5 +1,6 @@
 import jakarta.persistence.*;
 
+import java.sql.SQLException;
 import java.util.List;
 
 /**
@@ -42,8 +43,11 @@ public class Main {
                 }
             }
 
-        }catch(Exception e){
+        } catch(Exception e){
             e.printStackTrace();
+        }finally {
+            em.close();
+            System.out.println("Se cerro el Entity Manager");
         }
 
     }
@@ -67,6 +71,7 @@ public class Main {
 
             Producto p = em.find(Producto.class, idProductoModificar);
 
+
             //Modificamos el producto
             if(p != null){
                 double precioAnterior = p.getPrecio();
@@ -78,6 +83,7 @@ public class Main {
                 System.out.println("El precio nuevo es: " + precioNuevo + "€");
 
                 //Hacemos commit para confirmar transaccion
+                em.persist(p);
                 tx.commit();
                 System.out.println("Precio modificado con exito");
             }else{
@@ -100,7 +106,7 @@ public class Main {
     }
 
 
-    //Metodo Actualizar stock de un producto
+    //Método Actualizar stock de un producto
     public static void modificarStockExistente() {
         System.out.println(" Modificar Stock existente");
 
@@ -130,6 +136,7 @@ public class Main {
                 System.out.println("El stock nuevo es: " + stockNuevo + "unidades");
 
                 //Hacemos commit para confirmar transaccion
+                em.persist(p);
                 tx.commit();
                 System.out.println("Stock modificado con exito");
             }else{
