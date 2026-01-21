@@ -30,7 +30,9 @@ public class Main {
         try {
 
             String consulta = "SELECT p FROM Producto p WHERE p.stock < 20 ";
+            /* TypedQuery para consultas, mientras que Query es más adecuada para actualizaciones y eliminaciones.*/
             TypedQuery<Producto> q = em.createQuery(consulta, Producto.class);
+
             List<Producto> productos = q.getResultList();
 
             if (productos.isEmpty()) {
@@ -136,6 +138,7 @@ public class Main {
                 System.out.println("El stock nuevo es: " + stockNuevo + "unidades");
 
                 //Hacemos commit para confirmar transaccion
+                //Para eliminar un producto es misma estructura, cambiamos el persist(p) por remove(p)
                 em.persist(p);
                 tx.commit();
                 System.out.println("Stock modificado con exito");
