@@ -4,50 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0c685c8-6639-4054-83bf-52fe2bef533f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../UT5_Intellij/JuegoMisiones/JuegoMisiones.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UT5_Intellij/PersonajesJuego/PersonajesJuego.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConexionExistXMLDB/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConexionExistXMLDB/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConexionExistXMLDB/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConexionExistXMLDB/src/main/java/org/example/TestExistConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConexionExistXMLDB/src/test/java/org/example/TestExistConnectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejemplo_Api_ExistDB/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejemplo_Api_ExistDB/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejemplo_Api_ExistDB/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejemplo_Api_ExistDB/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejemplo_Api_ExistDB/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejemplo_Api_ExistDB/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejemplo_Api_ExistDB/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejemplo_Api_ExistDB/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prueba_Api_ExisdDB/Prueba_Api_ExisdDB.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT6_Tarea2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT6_Tarea2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT6_Tarea2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT6_Tarea2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT6_Tarea2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT6_Tarea2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT6_Tarea2/src/main/java/org/example/GestionColeccionesExistXMLDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT6_Tarea2/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT6_Tarea3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT6_Tarea3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT6_Tarea3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT6_Tarea3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT6_Tarea3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT6_Tarea3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT6_Tarea3/src/main/java/org/example/GestionDocumentosExist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UT6_Tarea3/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ConsultaProfesoresXQJ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/ClientePOP3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UT5_Intellij/ConsultaModificaciones1_ODB/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../UT5_Intellij/ConsultaModificaciones1_ODB/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="e0c685c8-6639-4054-83bf-52fe2bef533f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1768914573285</updated>
       <workItem from="1768914574267" duration="1224000" />
-      <workItem from="1768987308118" duration="6431000" />
+      <workItem from="1768987308118" duration="7399000" />
     </task>
     <servers />
   </component>
